@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialBook - By Rohit Kumar Jha</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/bf2313f3e5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-left">
+            <a href="index.html"> <img src="images/logo-x.png" class="logo" alt="Logo"> </a>
+            <ul>
+                <li><img src="images/notification.png" alt=""></li>
+                <li><img src="images/inbox.png" alt=""></li>
+                <li><img src="images/video.png" alt=""></li>
+            </ul>
+
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" alt="">
+                <input type="text" placeholder="Search">
+
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenutoggle()">
+                <img src="images/Bayu-2-modified.png" alt="">
+
+            </div>
+            <!------------------- Sttings-menu----------------------->
+
+            <div class="settings-menu">
+
+                <div id="dark-btn">
+                    <span> </span>
+                </div>
+
+
+
+                <div class="settings-menu-inner">
+                    <div class="user-profile">
+                        <img src="images/Bayu-2-modified.png" alt="">
+                        <div>
+                            <p>Bayu Saloko</p>
+                            <a href="profile.html">See your profile</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="user-profile">
+                        <img src="images/feedback.png" alt="">
+                        <div>
+                            <p>Give feedback</p>
+                            <a href="mailto:mailto:rohitjha242@gmail.com">help us to improve this website</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="setting-links">
+                        <img src="images/setting.png" class="settings-icon" alt="">
+                        <a href="#">Settings and Privacy <img src="images/arrow.png" width="10px"></a>
+
+                    </div>
+                    <div class="setting-links">
+                        <img src="images/help.png" class="settings-icon" alt="">
+                        <a href="#">Help and Support <img src="images/arrow.png" width="10px"></a>
+
+                    </div>
+                    <div class="setting-links">
+                        <img src="images/display.png" class="settings-icon" alt="">
+                        <a href="#">Display and Accessibility <img src="images/arrow.png" width="10px"></a>
+
+                    </div>
+                    <div class="setting-links">
+                        <img src="images/logout.png" class="settings-icon" alt="">
+                        <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+
+
+    </nav>
+    <!-- --------------------------Navigation Bar Ends ----------------------------->
+
+
+
+
+
+    <!------------------- Container Starts----------------------->
+
+    <div class="container">
+
+
+        <!----------- left-sidebar -------------->
+
+
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png">Latest News</a>
+                <a href="#"><img src="images/friends.png">Friends</a>
+                <a href="#"><img src="images/group.png">Groups</a>
+                <a href="#"><img src="images/marketplace.png">Marketplace</a>
+                <a href="#"><img src="images/watch.png">Watch</a>
+                <a href="#">See More</a>
+
+            </div>
+            <div class="shortcut-links">
+
+                <p>Your shortcuts</p>
+                <a href="#"><img src="images/shortcut-1.png">Web Developers</a>
+                <a href="#"><img src="images/shortcut-2.png">Web Design course</a>
+                <a href="#"><img src="images/shortcut-3.png">Full stack Development</a>
+                <a href="#"><img src="images/shortcut-3.png">Website Experts</a>
+            </div>
+
+        </div>
+
+
+        <!--------------- main content starts---------------------->
+
+
+        <div class="main-content">
+
+            <!-- <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/upload.png" alt="">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/member-1.png" alt="">
+                    <p>Sharleen Jubaedah</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/member-2.png" alt="">
+                    <p>Alparez</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-3.png" alt="">
+                    <p>Leon</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/member-4.png" alt="">
+                    <p>Endang</p>
+                </div>
+            </div> -->
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/Bayu-2-modified.png" alt="">
+                    <div>
+                        <p>Bayu Saloko</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind bayu"></textarea>
+
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png" alt="">Live Video</a>
+                        <a href="#"><img src="images/photo.png" alt="">Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png" alt="">Feeling Activity</a>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!------------- Post 1----------------- -->
+
+
+            <div class="post-container">
+
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/Bayu-2-modified.png" alt="">
+                        <div>
+                            <p>Bayu Saloko</p>
+                            <span>
+                                March 04 2022, 03:42pm
+                            </span>
+                        </div>
+                    </div>
+                    <a href="#"> <i class="fa-solid fa-ellipsis-v"></i></a>
+
+                </div>
+
+                <p class="post-text">
+                    Halo saya penyuka anak kecil.<span> Infokan secepatnya jika ada hehe. </span>
+                    Reprehenderit maxime cum asperiores ab
+                    accusamus cupiditate eligendi, velit error officiis? Eligendi? <a href="#">#bayuSaloko12</a>
+                    <a href="#">#Github</a>
+                </p>
+                <img src="images/feed-images-1.png" class="post-img" alt="">
+
+                <div class="post-row">
+
+                    <div class="activity-icons">
+
+                        <div><img src="images/like-blue.png" alt="">120</div>
+                        <div> <img src="images/comments.png" alt="">50</div>
+                        <div><img src="images/share.png" alt="">45</div>
+
+                    </div>
+
+                    <div class="post-profile-icon">
+
+                        <img src="images/Bayu-2-modified.png" alt=""><i class="fa-solid fa-caret-down"></i>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <!------------- Post 2----------------- -->
+            <div class="post-container">
+
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-1.png" alt="">
+                        <div>
+                            <p>Sharleen Jubaedah</p>
+                            <span>
+                                Feb 28 2022, 01:18pm
+                            </span>
+                        </div>
+                    </div>
+                    <a href="#"> <i class="fa-solid fa-ellipsis-v"></i></a>
+
+                </div>
+
+                <p class="post-text">
+                    Consectetur adipisicing elit.<span> Enjoing the Life at Fullest. </span>
+                    Reprehenderit maxime cum asperiores ab
+                    accusamus cupiditate eligendi, velit error officiis? Eligendi? <a href="#">#AlishaLian542</a>
+                    <a href="#">#NightOut</a>
+                </p>
+                <img src="images/feed-images-2.png" class="post-img" alt="">
+
+                <div class="post-row">
+
+                    <div class="activity-icons">
+
+                        <div><img src="images/like-blue.png" alt="">458</div>
+                        <div> <img src="images/comments.png" alt="">226</div>
+                        <div><img src="images/share.png" alt="">124</div>
+
+                    </div>
+
+                    <div class="post-profile-icon">
+
+                        <img src="images/Bayu-2-modified.png" alt=""><i class="fa-solid fa-caret-down"></i>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <!------------- Post 3----------------- -->
+
+            <div class="post-container">
+
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-3.png" alt="">
+                        <div>
+                            <p>Lily Groff</p>
+                            <span>
+                                Jan 26 2022, 11:45am
+                            </span>
+                        </div>
+                    </div>
+                    <a href="#"> <i class="fa-solid fa-ellipsis-v"></i></a>
+
+                </div>
+
+                <p class="post-text">
+                    Dolor sit amet consectetur adipisicing elit. <span> Moments with Friends. </span>
+                    Voluptate vel nostrum error dolore in quibusdam illo perspiciatis culpa! Voluptate magnam culpa
+                    provident!
+                    <a href="#">#LillyGroff456</a> <a href="#">#Friends4Ever</a>
+                </p>
+                <img src="images/feed-images-3.png" class="post-img" alt="">
+
+                <div class="post-row">
+
+                    <div class="activity-icons">
+
+                        <div><img src="images/like-blue.png" alt="">120</div>
+                        <div> <img src="images/comments.png" alt="">50</div>
+                        <div><img src="images/share.png" alt="">45</div>
+
+                    </div>
+
+                    <div class="post-profile-icon">
+
+                        <img src="images/Bayu-2-modified.png" alt=""><i class="fa-solid fa-caret-down"></i>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <!------------- Post 4----------------- -->
+
+            <div class="post-container">
+
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-6.png" alt="">
+                        <div>
+                            <p>Anne Marry</p>
+                            <span>
+                                Jan 21 2022, 09:35am
+                            </span>
+                        </div>
+                    </div>
+                    <a href="#"> <i class="fa-solid fa-ellipsis-v"></i></a>
+
+                </div>
+
+                <p class="post-text">
+                    Amet Lorem, ipsum. it amet consectetur adipisicing elit. <span> Only good vibes </span>
+                    Voluptate vel nostrum error dolore in quibusdam illo perspiciatis culpa! Voluptate magnam culpa
+                    provident!
+                    <a href="#">#Morningvibes</a> <a href="#">#WorklngLife</a>
+                </p>
+                <img src="images/feed-images-4.png" class="post-img" alt="">
+
+                <div class="post-row">
+
+                    <div class="activity-icons">
+
+                        <div><img src="images/like-blue.png" alt="">854</div>
+                        <div> <img src="images/comments.png" alt="">256</div>
+                        <div><img src="images/share.png" alt="">125</div>
+
+                    </div>
+
+                    <div class="post-profile-icon">
+
+                        <img src="images/Bayu-2-modified.png" alt=""><i class="fa-solid fa-caret-down"></i>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <!------------- Post 5----------------- -->
+
+
+            <div class="post-container">
+
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-2.png" alt="">
+                        <div>
+                            <p>Alparez</p>
+                            <span>
+                                Jan 19 2022, 10:12am
+                            </span>
+                        </div>
+                    </div>
+                    <a href="#"> <i class="fa-solid fa-ellipsis-v"></i></a>
+
+                </div>
+
+                <p class="post-text">
+                    Quae cupiditate harum ullam quod! <span> Findig the Solutions.
+                    </span>
+                    Voluptate vel nostrum error dolore in quibusdam illo perspiciatis culpa! Voluptate magnam culpa
+                    provident!
+                    <a href="#">#Meeting</a> <a href="#">#OfficeCulture</a>
+                </p>
+                <img src="images/feed-images-5.png" class="post-img" alt="">
+
+                <div class="post-row">
+
+                    <div class="activity-icons">
+
+                        <div><img src="images/like-blue.png" alt="">452</div>
+                        <div> <img src="images/comments.png" alt="">127</div>
+                        <div><img src="images/share.png" alt="">38</div>
+
+                    </div>
+
+                    <div class="post-profile-icon">
+
+                        <img src="images/Bayu-2-modified.png" alt=""><i class="fa-solid fa-caret-down"></i>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <button type="button" class="load-more-btn">Load More </button>
+
+            <!------------- Post Section Ends----------------- -->
+
+        </div>
+
+        <!-------------  main Content Ends---------------- -->
+
+
+
+
+        <!--------------------------- right-sidebar ---------------------------------->
+
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>25</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> jakarta</p>
+                    <a href="#">More Info</a>
+
+
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>29</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4> Technical Meet </h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Priok, Indonesia</p>
+                    <a href="#">More Info</a>
+
+
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/advertisement.png" class="sidebar-ads" alt="">
+
+            <div class="sidebar-title">
+                <h4>Conversations</h4>
+                <a href="#">Hide chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.png" alt="">
+                </div>
+                <p>Sharleen Jubaedah</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.png" alt="">
+                </div>
+                <p>Alparez</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-3.png" alt="">
+                </div>
+                <p>Leon</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-4.png" alt="">
+                </div>
+                <p>Endang</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-5.png" alt="">
+                </div>
+                <p>Jack Billy</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-6.png" alt="">
+                </div>
+                <p>Anne Marry</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-7.png" alt="">
+                </div>
+                <p>Adam</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-8.png" alt="">
+                </div>
+                <p>Marison</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-9.png" alt="">
+                </div>
+                <p>Joe Rider</p>
+            </div>
+
+
+        </div>
+
+
+
+
+    </div>
+
+    <!------------------- Container Ends----------------------->
+
+
+
+    <!------------------- Footer Starts----------------------->
+
+    <div class="footer">
+        <p>&copy; Copyright 2022 - <a href="https://linkedin.com/in/rohitjha242" target="blank">Rohit Kumar Jha </a> <span>&nbsp; &nbsp;&nbsp; </span>
+            <a
+                href="https://github.com/rohitjha424/"><i
+                    class="fa-brands fa-github"></i></a><span>&nbsp;&nbsp; &nbsp; </span>
+            <a
+                href="https://linkedin.com/in/rohitjha242"><i
+                class="fa-brands fa-linkedin"></i></a><span>&nbsp;&nbsp; &nbsp; </span>
+            <a
+                href="#"><i class="fa-brands fa-instagram"></i></a></p>
+    </div>
+    <!------------------- Footer Ends----------------------->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
